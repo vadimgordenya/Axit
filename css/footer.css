@@ -1,0 +1,34 @@
+.footer {
+	min-height: 85px;
+	width: 100%;
+	position: relative;
+	margin-top: -85px;
+	background-color: #000000;
+}
+.wrapp__footer {
+	width: 80%;
+	margin: 0 10%;
+}
+
+.wrapp__footer > .social__icons {
+	font-size: 25px;
+	width: 100%;
+	text-align: center;
+}
+
+
+.wrapp__footer li a {
+	color: #515f67;
+}
+.wrapp__footer .nav__menu,
+.copyright {
+	display: inline-block;
+	vertical-align: top;
+	width: 49.8%;
+}
+.copyright {
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 20px;
+}

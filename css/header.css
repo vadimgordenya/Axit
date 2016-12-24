@@ -1,0 +1,135 @@
+.header {
+	min-height: 640px;
+	width: 100%;
+	background: #000000 url("../img/header.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
+.top__wrapp {
+	min-height: 70px;
+	width: 100%;
+	background-color: #000;
+	opacity: 0.9;
+	border-bottom: 3px solid #fff;
+}
+.header__top {
+	width: 80%;
+	margin: 0 10%;
+	line-height: 70px;
+}
+.top__logo,
+.top__nav {
+	display: inline-block;
+	width: 49.8%;
+}
+.top__logo {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+}
+.logo__E {
+	color: #f98837;
+	font-weight: lighter;
+}
+.nav__menu li {
+	display: inline-block;
+}
+.nav__menu li  a {
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 12px 18px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	border: 2px solid #000;
+}
+.nav__menu li  a:hover {
+	border: 2px solid #f98837;
+	color: #f98837;
+	box-sizing: border-box;
+}
+.header__text-top,
+.header__text-bottom {
+	margin: 110px 10% 0 10%;
+	display: inline-block;
+	width: 29.5%;
+	vertical-align: top;
+}
+
+.header__text-top {
+	color: #fff;
+	font-size: 60px;
+	font-weight: bold;
+}
+.text__top {
+	font-size: 30px;
+	font-weight: lighter;
+}
+.text__top:after {
+	margin-top: 30px;
+	content: "";
+	display: block;
+	height: 2px;
+	width: 64px;
+	border: 2px solid #fff;
+	box-sizing: border-box;
+}
+.text__bottom {
+	margin-top: 30px;
+	color: #959699;
+	font-size: 15px;
+	font-weight: lighter;
+}
+.btn {
+	width: 135px;
+	padding: 15px 32px;
+	background: none;
+	border: 2px solid #fff;
+	color: #fff;
+	cursor: pointer; 
+}
+.btn:hover {
+	color: #f98837;
+	border: 2px solid #f98837;
+}
+.header__text-bottom {
+	text-align: center;	
+}
+.form {
+	background-color: #fff;
+	border-radius: 5px 5px 5px 5px;
+}
+.form > input {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 15px;
+	border-bottom: 2px solid #d6d6d6;
+	outline: none;
+}
+.name__form {
+	width: 100%;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: #f5f5f5;
+	border-radius: 5px 5px 0 0;
+	padding: 20px 20px;
+}
+.name__form  > .logo__E {
+	font-weight: bold;
+}
+.btn__get-started {
+	padding: 20px 0;
+	margin-top: 25px;
+	width: 100%;
+	background-color: #ff9b51;
+	border: none;
+	cursor: pointer;
+	border-radius: 0 0 5px 5px;
+	color: #fff;
+	font-weight: bold;
+}
